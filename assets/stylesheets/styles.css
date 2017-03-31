@@ -1,3 +1,40 @@
-div {
-  border: 1px solid black;
+.container-fluid {
+  max-width: 900px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  height: 40px;
+  width: 200px;
+  border:1px black solid;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+nav ul li.active {
+  border-bottom: 1px black solid;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 150px
+}
+
+.hero-header {
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.hero-description {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 16px;
 }
