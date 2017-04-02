@@ -22,28 +22,56 @@
 
 <body>
   <div ng-controller="HomeController" class="wrapper container-fluid">
-    <nav class="col-md-10 col-md-offset-1">
+    <nav class="col-xs-12 large">
       <div class="logo">
 
       </div>
-      <ul>
+      <ul class="nav-desktop">
+        <li class="active">Home</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="nav-mobile">
         <li class="active">Home</li>
         <li>Portfolio</li>
         <li>Contact</li>
       </ul>
     </nav>
-
     <div class="hero row">
-      <div class="hero-text col-sm-12">
-        <h1 class="hero-header">Websites with <typed>{{toType}}</typed></h1>
-        <p class="hero-description">
-          I am a Fullstack Developer based out of Boston, MA with a deep passion for web development.
-          I've had my hand in everything from early age start ups to large corporations. If you're looking
-          for a determined and driven developer to create your web presence, please get in touch with me.
-        </p>
+      <div class="hero-bg"></div>
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-content col-xs-12">
+        <div class="hero-text">
+          <h1 class="hero-header">Websites made with <br>
+            <!--
+              loop="false"
+              type-strings="[
+                'purpose.^1000',
+                'design.^1000',
+                'passion.^1000',
+                'you^150 in mind.^500'
+              ]">
+            -->
+            <typed start-timeout="3000"
+              type-speed="20"
+              back-speed="20"
+              loop="false"
+              type-strings="[
+                'purpose.^1200',
+                'design.^1200',
+                'passion.^1200',
+                'you^150 in mind.^500'
+              ]">
+            </typed>
+          </h1>
+          <p class="hero-description">
+            I am a Fullstack Developer based out of Boston, MA with a deep passion for web development.
+            I've had my hand in everything from early age start ups to large corporations. If you're looking
+            for a determined and driven developer to create your web presence, please get in touch with me.
+          </p>
+        </div>
       </div>
     </div>
-
   </div>
 </body>
 </html>
