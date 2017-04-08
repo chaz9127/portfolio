@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>CJ Douglas - Fullstack Engineer</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Requirements -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
@@ -22,45 +23,33 @@
 
 <body>
   <div ng-controller="HomeController" class="wrapper container-fluid">
-    <nav class="col-xs-12 large">
+    <nav class="col-sm-12 col-xs-6 desktop">
       <div class="logo">
-
       </div>
-      <ul class="nav-desktop">
-        <li class="active">Home</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-      <ul class="nav-mobile">
+      <ul>
         <li class="active">Home</li>
         <li>Portfolio</li>
         <li>Contact</li>
       </ul>
     </nav>
+    <div class="krabby-patty-menu">
+      <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" />
+    </div>
     <div class="hero row">
       <div class="hero-bg"></div>
       <div class="hero-bg-overlay"></div>
       <div class="hero-content col-xs-12">
         <div class="hero-text">
           <h1 class="hero-header">Websites made with <br>
-            <!--
-              loop="false"
-              type-strings="[
-                'purpose.^1000',
-                'design.^1000',
-                'passion.^1000',
-                'you^150 in mind.^500'
-              ]">
-            -->
             <typed start-timeout="3000"
               type-speed="20"
               back-speed="20"
-              loop="false"
+              loop="true"
               type-strings="[
-                'purpose.^1200',
-                'design.^1200',
-                'passion.^1200',
-                'you^150 in mind.^500'
+                '^400purpose.^1200',
+                '^400design.^1200',
+                '^400passion.^1200',
+                '^400you^150 in mind.^500'
               ]">
             </typed>
           </h1>
@@ -69,9 +58,28 @@
             I've had my hand in everything from early age start ups to large corporations. If you're looking
             for a determined and driven developer to create your web presence, please get in touch with me.
           </p>
+          <button class="btn btn-primary for-hire"><span class="for-hire-text">I need a website </span><span class="for-hire-icon glyphicon glyphicon-chevron-right"></span></button>
         </div>
       </div>
     </div>
+    <!-- <div class="projects-container">
+      <div class="row project project-right">
+        <div class="project-image col-sm-6 col-xs-12">
+          <img src="https://jonny.me/img/tweetmap.jpg" />
+        </div>
+        <div class="project-description col-sm-6 col-xs-12">
+          <h2>Title</h2>
+          <p>
+            This is a desciption pertaining to the relevant project.
+          </p>
+          <div class="tag-container">
+            <span class="tag">one</span>
+            <span class="tag">two</span>
+            <span class="tag">three is for me</span>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
 </body>
 </html>

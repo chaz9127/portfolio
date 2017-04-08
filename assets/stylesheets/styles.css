@@ -5,6 +5,7 @@
 
 body {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 .container-fluid {
   max-width: 960px;
@@ -20,6 +21,9 @@ body {
 nav {
   padding-top: 30px;
   z-index: 1;
+}
+.krabby-patty-menu{
+  display: none;
 }
 nav ul {
   list-style-type: none;
@@ -68,12 +72,29 @@ nav ul li.active {
 .hero-header {
   font-size: 52px;
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
 .hero-description {
   font-weight: bold;
   line-height: 26px;
   font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn.for-hire {
+  background-color: #02aef1;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.for-hire-text, .for-hire-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.for-hire-icon {
+  margin: 0px 10px;
 }
 
 /*********/
@@ -89,7 +110,26 @@ nav ul li.active {
 }
 
 @media (max-width: 768px) {
-  nav.large ul {
+  nav.desktop ul{
     display: none;
+  }
+  nav.desktop .logo {
+    float: none;
+  }
+
+  .krabby-patty-menu {
+    display: inline-block;
+    z-index: 99;
+    float: right;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+
+  .krabby-patty-menu img {
+    width: 50px;
+  }
+
+  .hero-content {
+    margin-top: 60px;
   }
 }
