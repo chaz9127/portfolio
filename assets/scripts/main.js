@@ -8,5 +8,5 @@ angular.module('portfolio', [
 config.$inject = [];
 
 function config() {
-  console.log("works?")
+  
 }

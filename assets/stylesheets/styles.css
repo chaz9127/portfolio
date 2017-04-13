@@ -18,31 +18,73 @@ body {
   border:1px #fff solid;
 }
 
-nav {
+.mobile-nav-header {
+  padding: 15px 10px;
+  border-bottom: 1px #ccc ridge;
+}
+.logo.mobile {
+  float: none;
+}
+
+.desktop-nav {
   padding-top: 30px;
   z-index: 1;
 }
 .krabby-patty-menu{
   display: none;
 }
-nav ul {
+.desktop-nav ul {
   list-style-type: none;
   float: right;
 }
-nav ul li {
+.desktop-nav ul li {
   display: inline-block;
   padding: 0px 26px 15px;
   margin-right: 20px;
   font-weight: bold;
   font-size: 16px;
 }
-nav ul li:hover {
+.desktop-nav ul li:hover {
   color: #02aef1;
 }
-nav ul li.active {
+.desktop-nav ul li.active {
   border-bottom: 4px #02aef1 solid;
 }
 
+.mobile-nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #21252b;
+  z-index: 99;
+  left: 0px;
+  opacity: .99;
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.mobile-nav ul li {
+}
+
+.mobile-nav-item-link, .mobile-nav-item-link:hover {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 40px 0px;
+  border-bottom: 1px #ccc ridge;
+  font-size: 24px;
+}
+
+
+.mobile-nav ul li:hover {
+  background-color: #02aef1;
+}
 .hero {
   padding: 0 15px;
 }
@@ -110,16 +152,17 @@ nav ul li.active {
 }
 
 @media (max-width: 768px) {
-  nav.desktop ul{
+  .desktop-nav ul{
     display: none;
   }
-  nav.desktop .logo {
+  .desktop-nav .logo {
     float: none;
   }
 
   .krabby-patty-menu {
+    position: relative;
     display: inline-block;
-    z-index: 99;
+    z-index: 1;
     float: right;
     cursor: pointer;
     margin-top: 25px;
