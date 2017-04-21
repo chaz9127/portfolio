@@ -1,14 +1,19 @@
 /*
-  primary-color: #69676b
+  primary-color: #2A3A3F
   secondary-color: #02aef1
 */
 
 body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  background-color: #eee;
 }
 .container-fluid {
   max-width: 960px;
+}
+a, a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 .logo {
   display: inline-block;
@@ -87,6 +92,7 @@ body {
 }
 .hero {
   padding: 0 15px;
+  height: 680px;
 }
 .hero-bg-overlay {
   background-color: #000;
@@ -139,6 +145,88 @@ body {
   margin: 0px 10px;
 }
 
+.project {
+  padding: 60px 0px 90px;
+}
+.project-left .project-image {
+  float: left;
+}
+.project-right .project-image {
+  float: right;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-header {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.project-header-link {
+  color: #2A3A3F;
+}
+.project-header-link:hover {
+  color: #02aef1;
+}
+
+.project-description {
+  line-height: 22px;
+  padding: 10px 0px;
+}
+
+.section {
+  color: #2A3A3F;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.section-header {
+  padding-top: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.section-divider-bottom {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+.section-divider-top {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 7px;
+  background: #02aef1;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-container {
+  background: #fff;
+  width: 100%;
+  color: #2A3A3F;
+  text-align: center;
+}
+
+.contact-column {
+  height: 300px;
+}
+
+.contact-icon {
+ display: inline-block;
+ color: #02aef1;
+ font-size: 48px;
+ margin-top: 30px;
+}
+
 /*********/
 .typed-cursor {
   color: #02aef1;
@@ -174,5 +262,9 @@ body {
 
   .hero-content {
     margin-top: 60px;
+  }
+
+  .projects-container {
+    text-align: center;
   }
 }
