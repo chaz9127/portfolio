@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
   <script src="https://use.fontawesome.com/6b5e017b49.js"></script>
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-  <script src="lib/angular-typed/dist/angular-typed.js"></script>
+  <script src="../lib/angular/angular.js"></script>
+  <script src="../lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="../lib/angular-typed/dist/angular-typed.js"></script>
 
   <!-- Custom -->
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
