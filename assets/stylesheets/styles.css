@@ -73,9 +73,6 @@ a, a:hover {
   padding: 0px;
 }
 
-.mobile-nav ul li {
-}
-
 .mobile-nav-item-link, .mobile-nav-item-link:hover {
   text-decoration: none;
   color: white;
@@ -231,10 +228,27 @@ a, a:hover {
   padding: 10px 10px 10px 20px;
   width: 100%;
   margin-bottom: 20px;
+  font-weight: medium;
 }
 
 .input-container textarea {
  height: 125px;
+}
+
+.contact-social {
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+.contact-social-buttons {
+  margin-top: 10px;
+}
+
+.contact-social-buttons i {
+  color: #02aef1;
+  font-size: 24px;
+  margin: 0px 5px;
 }
 
 .contact-photo {
@@ -244,8 +258,6 @@ a, a:hover {
   height: 100px;
   overflow: hidden;
   display: inline-block;
-  position: relative;
-  top: -50px;
 }
 
 .contact-photo img {
@@ -263,6 +275,17 @@ footer {
   height: 60px;
   border: 1px black solid;
   margin: 0 auto 20px;
+}
+
+button {
+  padding: 5px 25px;
+  background-color: #fff;
+  border: 1px solid #02aef1;
+  border-radius: 5px;
+  float: right;
+  color: #02aef1;
+  font-weight: medium;
+  margin-right: 15px;
 }
 
 /*********/
