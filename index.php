@@ -138,7 +138,7 @@
             <input type="email" placeholder="Email" required/>
           </div>
           <div class="col-md-4  col-sm-12 input-container">
-            <input type="tel" placeholder="Phone"/>
+            <input type="tel" placeholder="Phone®"/>
           </div>
           <br>
           <div class="col-md-12 input-container text-area">
