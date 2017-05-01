@@ -277,7 +277,7 @@ footer {
   margin: 0 auto 20px;
 }
 
-button {
+.contact-submit {
   padding: 5px 25px;
   background-color: #fff;
   border: 1px solid #02aef1;

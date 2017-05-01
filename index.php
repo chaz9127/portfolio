@@ -144,7 +144,7 @@
           <div class="col-md-12 input-container text-area">
             <textarea placeholder="What can I help you with?" required></textarea>
           </div>
-          <button type="submit">Send</button>
+          <button class="contact-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
