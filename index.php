@@ -14,7 +14,7 @@
   <script src="https://use.fontawesome.com/6b5e017b49.js"></script>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-  <script src="lib/angular-typed/dist/angular-typed.js"></script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/codekraft-studio/angular-typed/master/dist/angular-typed.min.js"></script>
 
   <!-- Custom -->
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
