@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>CJ Douglas - Fullstack Engineer</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="Websites made for you.">
+  <meta name="author" content="CJ Douglas">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Requirements -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
