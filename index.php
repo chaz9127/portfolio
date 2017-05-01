@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col-xs-9 contact-form">
-        <form class="">
+        <form action="mailer.php" method="post">
           <div class="col-md-4  col-sm-12 input-container">
             <input type="text" placeholder="Name" required/>
           </div>
