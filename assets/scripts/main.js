@@ -2,11 +2,12 @@
 
 angular.module('portfolio', [
   'angular-typed',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'smoothScroll'
 ]).config(config);
 
 config.$inject = [];
 
 function config() {
-  
+
 }

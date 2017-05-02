@@ -48,6 +48,7 @@ a, a:hover {
   margin-right: 20px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 .desktop-nav ul li:hover {
   color: #02aef1;
@@ -71,6 +72,7 @@ a, a:hover {
 .mobile-nav ul {
   list-style-type: none;
   padding: 0px;
+  cursor: pointer;
 }
 
 .mobile-nav-item-link, .mobile-nav-item-link:hover {
@@ -127,18 +129,29 @@ a, a:hover {
   margin-bottom: 30px;
 }
 
-.btn.for-hire {
-  background-color: #02aef1;
+
+.btn.hero-btn {
   padding: 12px 20px;
   font-size: 16px;
 }
 
-.for-hire-text, .for-hire-icon {
+.btn.need-website {
+  background-color: #02aef1;
+  border-color: #2e6da4;
+}
+
+.btn.resume{
+  background-color: #fff;
+  color: #02aef1;
+  margin-left: 10px;
+}
+
+.hero-text, .hero-icon {
   display: inline-block;
   vertical-align: middle;
 }
 
-.for-hire-icon {
+.hero-icon {
   margin: 0px 10px;
 }
 

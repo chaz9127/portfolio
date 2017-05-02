@@ -14,6 +14,7 @@
   <script src="https://use.fontawesome.com/6b5e017b49.js"></script>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="lib/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
   <script type="text/javascript" src="https://cdn.rawgit.com/codekraft-studio/angular-typed/master/dist/angular-typed.min.js"></script>
 
   <!-- Custom -->
@@ -30,8 +31,8 @@
       </div>
       <ul>
         <li class="active">Home</li>
-        <li>My Work</li>
-        <li>Contact</li>
+        <li scroll-to="my-work">My Work</li>
+        <li scroll-to="contact">Contact</li>
       </ul>
     </nav>
     <div class="krabby-patty-menu">
@@ -61,7 +62,8 @@
             I've had my hand in everything from early age start ups to large corporations. If you're looking
             for a determined and driven developer to create your web presence, please get in touch with me.
           </p>
-          <button class="btn btn-primary for-hire"><span class="for-hire-text">I need a website </span><span class="for-hire-icon glyphicon glyphicon-chevron-right"></span></button>
+          <a scroll-to="contact" class="btn btn-primary hero-btn need-website"><span class="hero-btn-text">I need a website </span><span class="hero-btn-icon glyphicon glyphicon-chevron-right"></span></a>
+          <a href="/assets/files/Resume.pdf" class="btn btn-primary hero-btn resume"><span class="hero-btn-text">My Resume </span><span class="hero-btn-icon glyphicon glyphicon-chevron-right"></span></a>
         </div>
       </div>
     </div>
@@ -69,7 +71,7 @@
 
   <div class="container">
     <div class="projects-container section row">
-      <h1 class="section-header">My Work</h1>
+      <h1 id="my-work" class="section-header">My Work</h1>
       <div class="row project project-left">
         <div class="project-image col-sm-6 col-xs-12">
           <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
@@ -116,7 +118,7 @@
       </div>
     </div>
   </div>
-  <div class="contact-container">
+  <div id="contact" class="contact-container">
     <div class="container-fluid">
       <div class="col-xs-3 contact-social">
         <div class="contact-photo">
@@ -132,17 +134,17 @@
       <div class="col-xs-9 contact-form">
         <form action="mailer.php" method="post">
           <div class="col-md-4  col-sm-12 input-container">
-            <input type="text" placeholder="Name" required/>
+            <input type="text" placeholder="Name" name="name" required/>
           </div>
           <div class="col-md-4  col-sm-12 input-container">
-            <input type="email" placeholder="Email" required/>
+            <input type="email" placeholder="Email" name="email" required/>
           </div>
           <div class="col-md-4  col-sm-12 input-container">
-            <input type="tel" placeholder="Phone®"/>
+            <input type="tel" placeholder="Phone" name="phone"/>
           </div>
           <br>
           <div class="col-md-12 input-container text-area">
-            <textarea placeholder="What can I help you with?" required></textarea>
+            <textarea placeholder="What can I help you with?" name="message" required></textarea>
           </div>
           <button class="contact-submit" type="submit">Send</button>
         </form>
