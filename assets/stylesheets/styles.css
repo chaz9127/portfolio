@@ -330,8 +330,9 @@ footer {
     margin-top: 25px;
   }
 
-  .krabby-patty-menu img {
-    width: 50px;
+  .krabby-patty-menu i{
+    font-size: 45px;
+    color: #02aef1;
   }
 
   .hero-content {

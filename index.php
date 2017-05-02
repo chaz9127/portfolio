@@ -36,7 +36,7 @@
       </ul>
     </nav>
     <div class="krabby-patty-menu">
-      <img id="krabby-patty-menu-icon" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" />
+      <i class="fa fa-bars" id="krabby-patty-menu-icon" aria-hidden="true"></i>
     </div>
     <nav mobile-nav class="mobile-nav"></nav>
     <div class="hero row">
@@ -74,7 +74,9 @@
       <h1 id="my-work" class="section-header">My Work</h1>
       <div class="row project project-left">
         <div class="project-image col-sm-6 col-xs-12">
-          <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+          <a href="https://www.gamersensei.com">
+            <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+          </a>
         </div>
         <div class="col-sm-6 col-xs-12">
           <h2 class="project-header"><a class="project-header-link" href="https://www.gamersensei.com">Gamer Sensei</a></h2>
@@ -98,7 +100,9 @@
 
       <div class="row project project-right">
         <div class="project-image col-sm-6 col-xs-12">
-          <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+          <a href="https://www.frumpuskrumpus.com">
+            <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+          </a>
         </div>
         <div class="project-description-wrapper col-sm-6 col-xs-12">
           <h2 class="project-header"><a class="project-header-link" href="https://www.frumpuskrumpus.com">Frumpus Krumps</a></h2>
