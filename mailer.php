@@ -20,7 +20,7 @@ $mail->addAddress('chasanid@gmail.com');
 $mail->Subject = "Portfolio Contact - {$name}";
 $mail->Body    = "<strong>Who:</strong> {$name} <br><br> <strong>Phone:</strong> {$phone} <br><br> <strong>Message:</strong> {$message}";
 
-// $mail->send()
+$mail->send();
 
 header('Location: /');
 ?>
