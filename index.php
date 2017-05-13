@@ -75,16 +75,16 @@
       <div class="row project project-left">
         <div class="project-image col-sm-6 col-xs-12">
           <a href="https://www.gamersensei.com">
-            <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+            <img src="assets/files/images/gamer-sensei-display.png" />
           </a>
         </div>
         <div class="col-sm-6 col-xs-12">
-          <h2 class="project-header"><a class="project-header-link" href="https://www.gamersensei.com">Gamer Sensei</a></h2>
+          <h2 class="project-header">
+            <a class="project-header-link" href="https://www.gamersensei.com">Gamer Sensei</a>
+          </h2>
           <p class="project-description">
-            GLC Solutions is a game changing technology consulting
-            firm based out of Langley, BC. They help companies
-            utilize and leverage technology for sustainable long
-            term growth and profitability.
+            Gamer Sensei is the first mastery platform for competitive gamers who want to win more. I joined as their
+            first full-time employee and helped grow the company through a redesign and Series A funding.
           </p>
           <div class="tag-container">
             <span class="tag">AngularJS</span>
@@ -101,16 +101,17 @@
       <div class="row project project-right">
         <div class="project-image col-sm-6 col-xs-12">
           <a href="https://www.frumpuskrumpus.com">
-            <img src="http://mattfarley.ca/images/project-showcase-glc.png" />
+            <img src="assets/files/images/frumpus-krumpus-display.png" />
           </a>
         </div>
         <div class="project-description-wrapper col-sm-6 col-xs-12">
-          <h2 class="project-header"><a class="project-header-link" href="https://www.frumpuskrumpus.com">Frumpus Krumps</a></h2>
+          <h2 class="project-header">
+            <a class="project-header-link" href="https://www.frumpuskrumpus.com">Frumpus Krumpus</a>
+          </h2>
           <p class="project-description">
-            GLC Solutions is a game changing technology consulting
-            firm based out of Langley, BC. They help companies
-            utilize and leverage technology for sustainable long
-            term growth and profitability.
+            Frumpus Krumpus is a passion project depicting the life of 2 roommates and their weekly adventures.
+            The comics themselves are created by a good friend of mine while I created the website from scratch.
+            Fully equipped with an admin portal for him to upload the newest comic, the site basically runs itself!
           </p>
           <div class="tag-container">
             <span class="tag">AngularJS</span>
