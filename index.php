@@ -126,7 +126,7 @@
     <div class="container-fluid">
       <div class="col-xs-3 contact-social">
         <div class="contact-photo">
-          <img src="http://www.philipkesslerphotography.com/images/headshots/headshots79.jpg" alt="CJ Douglas Photo"/>
+          <img src="assets/files/images/myself.jpg" alt="CJ Douglas Photo"/>
         </div>
         <div class="contact-social-buttons">
           <i class="fa fa-github" aria-hidden="true"></i>

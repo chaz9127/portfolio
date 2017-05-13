@@ -275,6 +275,8 @@ a, a:hover {
 
 .contact-photo img {
   width: 100px;
+  position: relative;
+  right: 15px; 
 }
 
 footer {
