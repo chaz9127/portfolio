@@ -20,7 +20,10 @@ a, a:hover {
   float: left;
   height: 40px;
   width: 200px;
-  border:1px #fff solid;
+}
+
+.logo img {
+  width: 100%;
 }
 
 .mobile-nav-header {
@@ -276,7 +279,7 @@ a, a:hover {
 .contact-photo img {
   width: 100px;
   position: relative;
-  right: 15px; 
+  right: 15px;
 }
 
 footer {

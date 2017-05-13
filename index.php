@@ -28,6 +28,7 @@
   <div ng-controller="HomeController" class="wrapper container-fluid">
     <nav class="col-sm-12 col-xs-6 desktop-nav">
       <div class="logo">
+        <img src="assets/files/images/logo.png" alt="CJ Douglas" title="CJ Douglas" />
       </div>
       <ul>
         <li class="active">Home</li>
@@ -158,7 +159,6 @@
   </div>
 
   <footer class="container">
-    <div class="footer-logo"></div>
     <span class="footer-content"> &copy; 2017 CJ Douglas</span>
   </footer>
 
