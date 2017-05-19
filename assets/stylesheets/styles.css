@@ -326,6 +326,23 @@ footer {
     float: none;
   }
 
+  .hero-header {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .hero-description {
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .hero-btn {
+    margin-bottom: 20px;
+  }
+
   .krabby-patty-menu {
     position: relative;
     display: inline-block;
