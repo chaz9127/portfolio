@@ -364,4 +364,13 @@ footer {
   .projects-container {
     text-align: center;
   }
+
+  .contact-container {
+    min-height: 425px;
+  }
+
+  .contact-social-buttons i {
+    margin: 3px 5px;
+    margin-left: 35px;
+  }
 }

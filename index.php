@@ -131,10 +131,9 @@
           <img src="assets/files/images/myself.jpg" alt="CJ Douglas Photo"/>
         </div>
         <div class="contact-social-buttons">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          <i class="fa fa-skype" aria-hidden="true"></i>
+          <a href="https://github.com/chaz9127" ><i class="fa fa-github" aria-hidden="true"></i> </a>
+          <a href="https://www.linkedin.com/in/chasani/" ><i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
+          <a href="mailto:chasanid@gmail.com" ><i class="fa fa-envelope-o" aria-hidden="true"></i> </a>
         </div>
       </div>
       <div class="col-xs-9 contact-form">
