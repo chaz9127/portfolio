@@ -109,7 +109,7 @@ a, a:hover {
 }
 
 .hero-bg {
-  background-image: url('https://static.pexels.com/photos/174/coffee-apple-iphone-laptop.jpg');
+  background-image: url('../files/images/hero-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   opacity: .6;
